@@ -5,7 +5,7 @@ include "classes/Personnage.php";
 // Creation d'une instance de la classe personnage
 $perso = new personnage();
 
-echo $perso->nom;
+echo $perso->getNom();
 
 echo"<br><br>";
 
@@ -13,11 +13,11 @@ echo"<br><br>";
 
 $perso2 = new personnage();
 $perso2->nom = "Robert";
-echo $perso2->nom;
+echo $perso2->getNom();
 
 
 
 $perso->walkRight();
-$perso->walkRight();
-$perso->walkRight();
-$perso->walkRight();
+$perso->walkTop();
+$perso->walkLeft();
+$perso->walkBottom();
