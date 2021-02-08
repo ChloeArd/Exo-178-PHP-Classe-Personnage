@@ -12,7 +12,7 @@ echo"<br><br>";
 
 
 $perso2 = new personnage();
-$perso2->nom = "Robert";
+$perso2->setNom("Robert");
 echo $perso2->getNom();
 
 
